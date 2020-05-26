@@ -1,0 +1,58 @@
+.section {
+
+    margin: 20px;
+
+}
+
+
+body {
+
+      font-family: Arial, sans-serif;
+
+    }
+   
+
+.section {
+      margin: 20px;
+
+    }
+   
+
+button {
+
+      padding: 5px 16px;
+
+      border-radius: 4px;
+
+    }
+   
+
+button#vehicleAdd {
+    background-color: yellow;
+    }
+
+
+button#checkIn,button#checkOut {
+    background-color: #98fb98;
+    }
+
+button#pay {
+    background-color: pink;
+    }
+
+
+#seed {color: green;}
+   
+
+.left{width:40%;float:left}
+   
+
+.right,.middle{width:20%;float:left}
+   
+
+.clear{clear:both}
+   
+
+sub {
+        font-weight: normal;
+    }

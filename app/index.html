@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Home DApp</title>
+ 
+
+ <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="./app.js"></script>
+  <style>
+table, th, td {
+   
+
+border: 1px solid black;
+}
+/*
+p {
+    float: left;
+   
+}
+*/
+
+</style>
+
+<script type="text/javascript">
+        function show() { document.getElementById('area').style.display = 'block'; }
+        function hide() { document.getElementById('area').style.display = 'none'; }
+      </script>
+     
+</head>
+   
+<body>
+ 
+
+<h1>Smat Home DApp</h1>
+  <div class="section">
+<div class="left">Contract deployed at: <div id="roomAddress"></div></div>
+<div class="right">Room Balance: <div id="roomBalance">0</div></div></div>
+
+<br/> <br/>
+ 
+<div class="section">
+<h2> Device Registration </h2>
+<table id="table1" cellpadding = 10>
+ <tr>
+    <th>Device Number</th>
+    <th>Device Name</th>
+  </tr> 
+</table>
+</div>
+
+<div class="clear"></div>
+<div class="section">
+<h2> Add Device </h2>
+    Device Number: <input type="text" id="DeviceNum" />
+    Device Name: <input type="text" id="DeviceName" />
+  
+
+   <button id="DeviceAdd">Add</button>
+      <span id="DeviceAddResult"></span>
+</div>
+<hr/>
+
+<div class="section">
+<h2> Current Status of Devices </h2>
+<table id="table2" cellpadding = 10>
+  <tr>
+ 
+
+  <th>Device Id</th>   
+  <th>Device Name</th>
+  <th>Status</th>
+  </tr> 
+</table>
+</div>
+
+
+<div class="section">
+<h2> Control Tv </h2>
+
+TV : <input type="text" id="tv" /> 
+<button id="SetTv">Set</button>
+<span id="SetTvResult"></span>
+</div>
+<hr/>
+
+<div class="section">
+<h2> Control Temperature </h2>
+
+Temp : <input type="text" id="temp" /> 
+<button id="SetTemp">Set</button><br>
+<span id="SetFanResult"></span><br>
+<span id="SetAcResult"></span>
+
+</div>
+<hr/>
+
+<div class="section">
+<h2> Control Light </h2>
+
+Light : <input type="text" id="light" /> 
+<button id="SetLight">Set</button><br>
+<span id="SetLightResult"></span>
+</div>
+<hr/>
+
+<div class="section">
+<h2> Control Power </h2>
+
+Power : <input type="text" id="power" /> 
+<button id="SetPower">Set</button><br>
+<span id="SetPowerResult"></span>
+</div>
+<hr/>
+
+
+
+
+<hr/>
+<br/><br/>
+<table id="table4" cellpadding = 10>
+</table>
+</body>
